@@ -7,10 +7,6 @@
     <title>Document</title>
   </head>
   <body>
-    <style> div.a {
-text-align: center;
-}
-    </style>
     <header><h1>Rolling Proyect</h1></header>
     <br />
     <nav><h2>Conociendo el HTML</h2></nav>
@@ -44,8 +40,82 @@ text-align: center;
 <li>Article: Espacio para escribir un articulo. <a href="https://www.w3schools.com/tags/tag_article.asp" target="_blank">Etiqueta article</a></li>
 <li>Footer: Pie de pagina. <a href="https://www.w3schools.com/tags/tag_footer.asp" target="_blank">Comando footer</a> </li></ol>
 <br>
-<p><h3>Guia de comandos basicos de HTML</h3></p>
+<p><h3>Etiquetas HTML5</h3></p>
 
+El lenguaje de marcado HTML se caracteriza por que se construye a partir de etiquetas
+(tags). Cuando decimos que HTML es un lenguaje de hipertexto significa que tiene texto
+oculto, y este se escribe dentro de etiquetas.
+<ol><li>Una etiqueta son palabras claves que encerramos con los signos < y >, dentro de
+estos signos escribimos el nombre de la etiqueta: < etiqueta></li>
+<li>La mayoría de las etiquetas se deben escribir en par, es decir, una etiqueta de
+apertura y otra de cierre: < etiqueta> < /etiqueta></li>
+<li>Si necesitan buscar información sobre el uso de una etiqueta pueden hacerlo con el
+nombre de tag HTML.</li></ol>
+
+<nav><h3>Estructura de una página web HTML5</h3>
+  <p>La estructura de una página web HTML5 se construye de la siguiente manera:</p>
+  
+  <img src="https://sites.google.com/site/html5nuevasfunciones/_/rsrc/1468757288982/--que-es-html/4-article/5.png?height=277&width=400" alt="estructura html5" height="300"></nav>
+  <br>
+  <ol><li> < !DOCTYPE html> Doctype es una etiqueta simple que no necesita cierre, su
+función es facilitar información del tipo de documento al servidor web que aloja la
+página, además es necesaria para la comunicación y entre el navegador y el
+servidor</li>
+<br>
+  <li>< html> </html> es una etiqueta par, es la que va a encerrar todo el documento
+html.
+</li>
+<br>
+  <li>< head> </head> esta etiqueta par, define la cabecera del documento y contiene
+información del mismo, por ejemplo metadatos, scripts, estilos, ubicación de estilos,
+título de la página entre otros datos. Todo lo que esté dentro de estas etiquetas no
+es visible para el usuario.</li>
+<br>
+  <li>< body> </body> Es una etiqueta par y es conocida como el cuerpo del sitio web,
+todo lo que se escriba dentro de esta etiqueta será visible por los navegadores.
+</li></ol>
+<br>
+<p><h3>Estructura de la cabecera de un sitio web</h3>
+  <br>
+<nav><img src="https://res.cloudinary.com/practicaldev/image/fetch/s--Kd_4bI3_--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/zbaylzi3lb2jpixr1epr.png" alt="estructura cabecera sitio web" height="300"></nav>
+<br>
+A partir del proyecto anterior, veremos que componentes van dentro de la etiqueta < head> < /head>.
+< meta> Esta es una etiqueta simple, su función es añadir información de la página, los
+buscadores como google, consultan información de la etiqueta < meta> buscando
+coincidencias con lo que el usuario pretende encontrar. También se usa para agregar que
+tipo de idioma estamos trabajando en el lenguaje de marcado, para establecer esto las
+etiquetas poseen atributos.</p>
+<br>
+ <p>< meta charset="utf-8"> Establece que nuestro sitio utiliza caracteres en español</p>
+esto es “utf-8”
+<p>< meta name="author" content="El contenido"> Establece el
+autor del sitio.</p>
+<p>< meta name="description" content="Agregar una descripción del sitio">
+Establece la descripción que es utilizada posteriormente por los buscadores como
+google.</p>
+<p>< link rel="" Type="" href=""> establece el icono o favicon que tendrá
+nuestra web, el atributo href=”...” indica donde está ubicado ese icono.</p>
+<p>< title> Estructura de la cabecera</title> Indica el título que aparece en la
+pestaña del navegador al ingresar a la web.</p>
+<br>
+<footer><h3>Contactanos</h3>
+  <br>
+<form action=""><label for="fname">Nombre:</label>
+<input type="text">
+<br>
+<label for="lname">Apellido:</label>
+<input type="text"></form>
+<br>
+<label for="Contacto">Telefono</label>
+			<input id="Contaco" name="Contacto" type="radio"> <label for="Contacto">email</label>
+			<input id="Contacto" name="Contacto" type="radio">
+      <br>
+      <input type="tel">
+      
+<br>
+<button type="submit">Enviar</button>
+
+</footer>
 
       </article>
     </section>
